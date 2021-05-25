@@ -1,0 +1,1731 @@
+2019-11-16 10:10:48,486 - [test_cases.py-->line:50] - ERROR: 断言异常: {'code': 0, 'msg': '两次密码不一致'} != {'code': 0, 'msg': '该账户已存在'}
+- {'code': 0, 'msg': '两次密码不一致'}
+?                     ^^^^^^^
+
++ {'code': 0, 'msg': '该账户已存在'}
+?                     ^^^^^^
+
+2019-11-16 10:20:07,005 - [test_cases.py-->line:51] - ERROR: 断言异常: {'code': 0, 'msg': '两次密码不一致'} != {'code': 0, 'msg': '该账户已存在'}
+- {'code': 0, 'msg': '两次密码不一致'}
+?                     ^^^^^^^
+
++ {'code': 0, 'msg': '该账户已存在'}
+?                     ^^^^^^
+
+2019-11-19 21:42:38,530 - [test_01_register.py-->line:85] - INFO: 成功注册-完整, 执行的结果为: Success
+
+2019-11-19 21:42:39,511 - [test_01_register.py-->line:85] - INFO: 成功注册-无昵称, 执行的结果为: Success
+
+2019-11-19 21:42:39,928 - [test_01_register.py-->line:85] - INFO: 成功注册-昵称超过10, 执行的结果为: Success
+
+2019-11-19 21:42:40,340 - [test_01_register.py-->line:85] - INFO: 密码为空, 执行的结果为: Success
+
+2019-11-19 21:42:40,606 - [test_01_register.py-->line:85] - INFO: 手机号为空, 执行的结果为: Success
+
+2019-11-19 21:42:40,851 - [test_01_register.py-->line:85] - INFO: 手机号-不足11位, 执行的结果为: Success
+
+2019-11-19 21:42:41,101 - [test_01_register.py-->line:85] - INFO: 手机号-超过11位, 执行的结果为: Success
+
+2019-11-19 21:42:41,506 - [test_01_register.py-->line:85] - INFO: 密码-少于8位, 执行的结果为: Success
+
+2019-11-19 21:42:41,877 - [test_01_register.py-->line:85] - INFO: 密码-多于16位, 执行的结果为: Success
+
+2019-11-19 21:42:42,106 - [test_01_register.py-->line:85] - INFO: 手机号已注册, 执行的结果为: Success
+
+2019-11-21 20:50:53,396 - [test_01_register.py-->line:82] - INFO: 成功注册-完整, 执行的结果为: Success
+
+2019-11-21 20:50:53,914 - [test_01_register.py-->line:82] - INFO: 成功注册-无昵称, 执行的结果为: Success
+
+2019-11-21 20:50:54,406 - [test_01_register.py-->line:82] - INFO: 成功注册-昵称超过10, 执行的结果为: Success
+
+2019-11-21 20:50:54,946 - [test_01_register.py-->line:82] - INFO: 密码为空, 执行的结果为: Success
+
+2019-11-21 20:50:55,211 - [test_01_register.py-->line:82] - INFO: 手机号为空, 执行的结果为: Success
+
+2019-11-21 20:50:55,476 - [test_01_register.py-->line:82] - INFO: 手机号-不足11位, 执行的结果为: Success
+
+2019-11-21 20:50:55,737 - [test_01_register.py-->line:82] - INFO: 手机号-超过11位, 执行的结果为: Success
+
+2019-11-21 20:50:56,241 - [test_01_register.py-->line:82] - INFO: 密码-少于8位, 执行的结果为: Success
+
+2019-11-21 20:50:56,779 - [test_01_register.py-->line:82] - INFO: 密码-多于16位, 执行的结果为: Success
+
+2019-11-21 20:50:57,129 - [test_01_register.py-->line:82] - INFO: 手机号已注册, 执行的结果为: Success
+
+2019-11-21 20:52:28,206 - [test_01_register.py-->line:82] - INFO: 成功注册-完整, 执行的结果为: Success
+
+2019-11-21 20:52:28,714 - [test_01_register.py-->line:82] - INFO: 成功注册-无昵称, 执行的结果为: Success
+
+2019-11-21 20:52:29,219 - [test_01_register.py-->line:82] - INFO: 成功注册-昵称超过10, 执行的结果为: Success
+
+2019-11-21 20:52:29,852 - [test_01_register.py-->line:82] - INFO: 密码为空, 执行的结果为: Success
+
+2019-11-21 20:52:30,224 - [test_01_register.py-->line:82] - INFO: 手机号为空, 执行的结果为: Success
+
+2019-11-21 20:52:30,601 - [test_01_register.py-->line:82] - INFO: 手机号-不足11位, 执行的结果为: Success
+
+2019-11-21 20:52:31,066 - [test_01_register.py-->line:82] - INFO: 手机号-超过11位, 执行的结果为: Success
+
+2019-11-21 20:52:31,583 - [test_01_register.py-->line:82] - INFO: 密码-少于8位, 执行的结果为: Success
+
+2019-11-21 20:52:32,105 - [test_01_register.py-->line:82] - INFO: 密码-多于16位, 执行的结果为: Success
+
+2019-11-21 20:52:32,482 - [test_01_register.py-->line:82] - INFO: 手机号已注册, 执行的结果为: Success
+
+2019-11-21 20:52:32,910 - [test_02_login.py-->line:80] - INFO: 正常登录, 执行的结果为: Success
+
+2019-11-21 20:52:33,369 - [test_02_login.py-->line:68] - ERROR: 手机号为空, 执行的结果为: Fail
+具体异常为: 1 != 2 : 手机号为空
+
+2019-11-21 20:52:33,703 - [test_02_login.py-->line:68] - ERROR: 密码为空, 执行的结果为: Fail
+具体异常为: 1 != 2 : 密码为空
+
+2019-11-21 20:52:34,016 - [test_02_login.py-->line:80] - INFO: 密码错误, 执行的结果为: Success
+
+2019-11-21 20:52:34,320 - [test_02_login.py-->line:80] - INFO: 手机号错误, 执行的结果为: Success
+
+2019-11-21 21:01:12,167 - [test_01_register.py-->line:82] - INFO: 成功注册-完整, 执行的结果为: Success
+
+2019-11-21 21:01:12,638 - [test_01_register.py-->line:82] - INFO: 成功注册-无昵称, 执行的结果为: Success
+
+2019-11-21 21:01:13,100 - [test_01_register.py-->line:82] - INFO: 成功注册-昵称超过10, 执行的结果为: Success
+
+2019-11-21 21:01:13,616 - [test_01_register.py-->line:82] - INFO: 密码为空, 执行的结果为: Success
+
+2019-11-21 21:01:13,988 - [test_01_register.py-->line:82] - INFO: 手机号为空, 执行的结果为: Success
+
+2019-11-21 21:01:14,292 - [test_01_register.py-->line:82] - INFO: 手机号-不足11位, 执行的结果为: Success
+
+2019-11-21 21:01:14,581 - [test_01_register.py-->line:82] - INFO: 手机号-超过11位, 执行的结果为: Success
+
+2019-11-21 21:01:15,049 - [test_01_register.py-->line:82] - INFO: 密码-少于8位, 执行的结果为: Success
+
+2019-11-21 21:01:15,501 - [test_01_register.py-->line:82] - INFO: 密码-多于16位, 执行的结果为: Success
+
+2019-11-21 21:01:15,782 - [test_01_register.py-->line:82] - INFO: 手机号已注册, 执行的结果为: Success
+
+2019-11-21 21:01:16,103 - [test_02_login.py-->line:80] - INFO: 正常登录, 执行的结果为: Success
+
+2019-11-21 21:01:16,448 - [test_02_login.py-->line:68] - ERROR: 手机号为空, 执行的结果为: Fail
+具体异常为: 1 != 2 : 手机号为空
+
+2019-11-21 21:01:16,711 - [test_02_login.py-->line:68] - ERROR: 密码为空, 执行的结果为: Fail
+具体异常为: 1 != 2 : 密码为空
+
+2019-11-21 21:01:16,986 - [test_02_login.py-->line:80] - INFO: 密码错误, 执行的结果为: Success
+
+2019-11-21 21:01:17,243 - [test_02_login.py-->line:80] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-05-09 15:04:18,381 - [test_02_login.py-->line:83] - INFO: 正常登录, 执行的结果为: Success
+
+2020-05-09 15:04:18,487 - [test_02_login.py-->line:83] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-05-09 15:04:18,587 - [test_02_login.py-->line:83] - INFO: 密码为空, 执行的结果为: Success
+
+2020-05-09 15:04:18,685 - [test_02_login.py-->line:83] - INFO: 密码错误, 执行的结果为: Success
+
+2020-05-09 15:04:18,790 - [test_02_login.py-->line:83] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-05-09 15:10:36,377 - [test_02_login.py-->line:84] - INFO: 正常登录, 执行的结果为: Success
+
+2020-05-09 15:10:36,478 - [test_02_login.py-->line:84] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-05-09 15:10:36,579 - [test_02_login.py-->line:84] - INFO: 密码为空, 执行的结果为: Success
+
+2020-05-09 15:10:36,983 - [test_02_login.py-->line:72] - ERROR: 密码错误, 执行的结果为: Fail
+具体异常为: 20001 != 20003 : 密码错误
+
+2020-05-09 15:10:37,383 - [test_02_login.py-->line:84] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-05-09 15:13:12,775 - [test_02_login.py-->line:83] - INFO: 正常登录, 执行的结果为: Success
+
+2020-05-09 15:13:12,853 - [test_02_login.py-->line:83] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-05-09 15:13:12,935 - [test_02_login.py-->line:83] - INFO: 密码为空, 执行的结果为: Success
+
+2020-05-09 15:13:13,503 - [test_02_login.py-->line:83] - INFO: 密码错误, 执行的结果为: Success
+
+2020-05-09 15:13:13,888 - [test_02_login.py-->line:83] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-05-09 18:09:40,421 - [test_02_login.py-->line:82] - INFO: 正常登录, 执行的结果为: Success
+
+2020-05-09 18:09:40,518 - [test_02_login.py-->line:82] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-05-09 18:09:40,603 - [test_02_login.py-->line:82] - INFO: 密码为空, 执行的结果为: Success
+
+2020-05-09 18:09:41,190 - [test_02_login.py-->line:82] - INFO: 密码错误, 执行的结果为: Success
+
+2020-05-09 18:09:41,597 - [test_02_login.py-->line:82] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-05-09 18:10:18,647 - [test_02_login.py-->line:82] - INFO: 正常登录, 执行的结果为: Success
+
+2020-05-09 18:10:18,736 - [test_02_login.py-->line:82] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-05-09 18:10:18,813 - [test_02_login.py-->line:82] - INFO: 密码为空, 执行的结果为: Success
+
+2020-05-09 18:10:19,400 - [test_02_login.py-->line:82] - INFO: 密码错误, 执行的结果为: Success
+
+2020-05-09 18:10:19,798 - [test_02_login.py-->line:82] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-05-11 09:00:03,823 - [test_02_login.py-->line:82] - INFO: 正常登录, 执行的结果为: Success
+
+2020-05-11 09:00:03,893 - [test_02_login.py-->line:82] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-05-11 09:00:03,963 - [test_02_login.py-->line:82] - INFO: 密码为空, 执行的结果为: Success
+
+2020-05-11 09:00:04,512 - [test_02_login.py-->line:82] - INFO: 密码错误, 执行的结果为: Success
+
+2020-05-11 09:00:04,880 - [test_02_login.py-->line:82] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-05-12 09:46:08,276 - [test_02_login.py-->line:82] - INFO: 正常登录, 执行的结果为: Success
+
+2020-05-12 09:46:08,425 - [test_02_login.py-->line:82] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-05-12 09:46:08,560 - [test_02_login.py-->line:82] - INFO: 密码为空, 执行的结果为: Success
+
+2020-05-12 09:46:09,410 - [test_02_login.py-->line:82] - INFO: 密码错误, 执行的结果为: Success
+
+2020-05-12 09:46:09,992 - [test_02_login.py-->line:82] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-05-13 09:00:07,365 - [test_02_login.py-->line:82] - INFO: 正常登录, 执行的结果为: Success
+
+2020-05-13 09:00:07,448 - [test_02_login.py-->line:82] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-05-13 09:00:07,527 - [test_02_login.py-->line:82] - INFO: 密码为空, 执行的结果为: Success
+
+2020-05-13 09:00:08,241 - [test_02_login.py-->line:82] - INFO: 密码错误, 执行的结果为: Success
+
+2020-05-13 09:00:08,738 - [test_02_login.py-->line:82] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-05-14 09:00:09,276 - [test_02_login.py-->line:82] - INFO: 正常登录, 执行的结果为: Success
+
+2020-05-14 09:00:09,359 - [test_02_login.py-->line:82] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-05-14 09:00:09,433 - [test_02_login.py-->line:82] - INFO: 密码为空, 执行的结果为: Success
+
+2020-05-14 09:00:10,158 - [test_02_login.py-->line:82] - INFO: 密码错误, 执行的结果为: Success
+
+2020-05-14 09:00:10,659 - [test_02_login.py-->line:82] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-05-15 09:00:11,192 - [test_02_login.py-->line:82] - INFO: 正常登录, 执行的结果为: Success
+
+2020-05-15 09:00:11,340 - [test_02_login.py-->line:82] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-05-15 09:00:11,420 - [test_02_login.py-->line:82] - INFO: 密码为空, 执行的结果为: Success
+
+2020-05-15 09:00:12,138 - [test_02_login.py-->line:82] - INFO: 密码错误, 执行的结果为: Success
+
+2020-05-15 09:00:12,634 - [test_02_login.py-->line:82] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-05-19 09:53:11,875 - [test_02_login.py-->line:82] - INFO: 正常登录, 执行的结果为: Success
+
+2020-05-19 09:53:12,094 - [test_02_login.py-->line:82] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-05-19 09:53:12,212 - [test_02_login.py-->line:82] - INFO: 密码为空, 执行的结果为: Success
+
+2020-05-19 09:53:13,083 - [test_02_login.py-->line:82] - INFO: 密码错误, 执行的结果为: Success
+
+2020-05-19 09:53:13,703 - [test_02_login.py-->line:82] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-05-20 09:00:07,694 - [test_02_login.py-->line:82] - INFO: 正常登录, 执行的结果为: Success
+
+2020-05-20 09:00:07,798 - [test_02_login.py-->line:82] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-05-20 09:00:07,876 - [test_02_login.py-->line:82] - INFO: 密码为空, 执行的结果为: Success
+
+2020-05-20 09:00:08,666 - [test_02_login.py-->line:82] - INFO: 密码错误, 执行的结果为: Success
+
+2020-05-20 09:00:09,095 - [test_02_login.py-->line:82] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-05-21 09:00:09,345 - [test_02_login.py-->line:82] - INFO: 正常登录, 执行的结果为: Success
+
+2020-05-21 09:00:09,418 - [test_02_login.py-->line:82] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-05-21 09:00:09,495 - [test_02_login.py-->line:82] - INFO: 密码为空, 执行的结果为: Success
+
+2020-05-21 09:00:10,298 - [test_02_login.py-->line:82] - INFO: 密码错误, 执行的结果为: Success
+
+2020-05-21 09:00:10,739 - [test_02_login.py-->line:82] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-05-22 09:00:12,281 - [test_02_login.py-->line:82] - INFO: 正常登录, 执行的结果为: Success
+
+2020-05-22 09:00:12,404 - [test_02_login.py-->line:82] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-05-22 09:00:12,796 - [test_02_login.py-->line:82] - INFO: 密码为空, 执行的结果为: Success
+
+2020-05-22 09:00:13,631 - [test_02_login.py-->line:82] - INFO: 密码错误, 执行的结果为: Success
+
+2020-05-22 09:00:14,090 - [test_02_login.py-->line:82] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-05-25 09:50:32,023 - [test_02_login.py-->line:82] - INFO: 正常登录, 执行的结果为: Success
+
+2020-05-25 09:50:32,156 - [test_02_login.py-->line:82] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-05-25 09:50:32,257 - [test_02_login.py-->line:82] - INFO: 密码为空, 执行的结果为: Success
+
+2020-05-25 09:50:33,106 - [test_02_login.py-->line:82] - INFO: 密码错误, 执行的结果为: Success
+
+2020-05-25 09:50:33,538 - [test_02_login.py-->line:82] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-05-26 09:00:15,866 - [test_02_login.py-->line:82] - INFO: 正常登录, 执行的结果为: Success
+
+2020-05-26 09:00:15,955 - [test_02_login.py-->line:82] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-05-26 09:00:16,028 - [test_02_login.py-->line:82] - INFO: 密码为空, 执行的结果为: Success
+
+2020-05-26 09:00:16,770 - [test_02_login.py-->line:82] - INFO: 密码错误, 执行的结果为: Success
+
+2020-05-26 09:00:17,136 - [test_02_login.py-->line:82] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-05-27 09:00:16,940 - [test_02_login.py-->line:82] - INFO: 正常登录, 执行的结果为: Success
+
+2020-05-27 09:00:17,007 - [test_02_login.py-->line:82] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-05-27 09:00:17,077 - [test_02_login.py-->line:82] - INFO: 密码为空, 执行的结果为: Success
+
+2020-05-27 09:00:17,829 - [test_02_login.py-->line:82] - INFO: 密码错误, 执行的结果为: Success
+
+2020-05-27 09:00:18,198 - [test_02_login.py-->line:82] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-05-28 09:00:18,923 - [test_02_login.py-->line:82] - INFO: 正常登录, 执行的结果为: Success
+
+2020-05-28 09:00:19,001 - [test_02_login.py-->line:82] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-05-28 09:00:19,067 - [test_02_login.py-->line:82] - INFO: 密码为空, 执行的结果为: Success
+
+2020-05-28 09:00:19,846 - [test_02_login.py-->line:82] - INFO: 密码错误, 执行的结果为: Success
+
+2020-05-28 09:00:20,214 - [test_02_login.py-->line:82] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-05-29 09:00:20,671 - [test_02_login.py-->line:82] - INFO: 正常登录, 执行的结果为: Success
+
+2020-05-29 09:00:20,788 - [test_02_login.py-->line:82] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-05-29 09:00:20,856 - [test_02_login.py-->line:82] - INFO: 密码为空, 执行的结果为: Success
+
+2020-05-29 09:00:21,688 - [test_02_login.py-->line:82] - INFO: 密码错误, 执行的结果为: Success
+
+2020-05-29 09:00:22,075 - [test_02_login.py-->line:82] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-06-01 09:00:22,901 - [test_02_login.py-->line:82] - INFO: 正常登录, 执行的结果为: Success
+
+2020-06-01 09:00:22,972 - [test_02_login.py-->line:82] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-06-01 09:00:23,041 - [test_02_login.py-->line:82] - INFO: 密码为空, 执行的结果为: Success
+
+2020-06-01 09:00:23,967 - [test_02_login.py-->line:82] - INFO: 密码错误, 执行的结果为: Success
+
+2020-06-01 09:00:24,465 - [test_02_login.py-->line:82] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-06-30 11:41:58,549 - [test_01_login.py-->line:82] - INFO: 正常登录, 执行的结果为: Success
+
+2020-06-30 11:41:58,952 - [test_01_login.py-->line:82] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-06-30 11:41:59,023 - [test_01_login.py-->line:82] - INFO: 密码为空, 执行的结果为: Success
+
+2020-06-30 11:42:00,102 - [test_01_login.py-->line:70] - ERROR: 密码错误, 执行的结果为: Fail
+具体异常为: 20001 != 22018 : 密码错误
+
+2020-06-30 11:42:00,233 - [test_01_login.py-->line:70] - ERROR: 手机号错误, 执行的结果为: Fail
+具体异常为: 20003 != 22022 : 手机号错误
+
+2020-06-30 11:45:34,361 - [test_01_login.py-->line:82] - INFO: 正常登录, 执行的结果为: Success
+
+2020-06-30 11:45:34,462 - [test_01_login.py-->line:82] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-06-30 11:45:34,556 - [test_01_login.py-->line:82] - INFO: 密码为空, 执行的结果为: Success
+
+2020-06-30 11:45:35,331 - [test_01_login.py-->line:70] - ERROR: 密码错误, 执行的结果为: Fail
+具体异常为: 20001 != 22018 : 密码错误
+
+2020-06-30 11:45:35,471 - [test_01_login.py-->line:70] - ERROR: 手机号错误, 执行的结果为: Fail
+具体异常为: 20003 != 22022 : 手机号错误
+
+2020-07-03 14:02:28,112 - [test_01_login.py-->line:82] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-03 17:14:05,169 - [test_01_login.py-->line:73] - ERROR: 密码错误, 执行的结果为: Fail
+具体异常为: 20001 != 22018 : 密码错误
+
+2020-07-03 17:14:05,307 - [test_01_login.py-->line:73] - ERROR: 手机号错误, 执行的结果为: Fail
+具体异常为: 20003 != 22022 : 手机号错误
+
+2020-07-03 17:49:28,288 - [test_01_login.py-->line:87] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-03 17:49:28,354 - [test_01_login.py-->line:87] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-03 17:49:29,139 - [test_01_login.py-->line:73] - ERROR: 密码错误, 执行的结果为: Fail
+具体异常为: 20001 != 22018 : 密码错误
+
+2020-07-03 17:49:29,265 - [test_01_login.py-->line:73] - ERROR: 手机号错误, 执行的结果为: Fail
+具体异常为: 20003 != 22022 : 手机号错误
+
+2020-07-03 17:49:30,178 - [test_01_login.py-->line:87] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-03 17:54:00,169 - [test_01_login.py-->line:87] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-03 17:54:00,241 - [test_01_login.py-->line:87] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-03 17:54:00,317 - [test_01_login.py-->line:87] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-03 17:54:01,043 - [test_01_login.py-->line:87] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-03 17:54:01,176 - [test_01_login.py-->line:73] - ERROR: 手机号错误, 执行的结果为: Fail
+具体异常为: 20003 != 22022 : 手机号错误
+
+2020-07-14 18:04:33,679 - [test_01_login.py-->line:94] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-14 18:04:33,757 - [test_01_login.py-->line:94] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-14 18:04:33,845 - [test_01_login.py-->line:94] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-14 18:04:34,815 - [test_01_login.py-->line:94] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-14 18:04:34,937 - [test_01_login.py-->line:94] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-14 18:05:35,033 - [test_01_login.py-->line:94] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-14 18:05:35,109 - [test_01_login.py-->line:94] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-14 18:05:35,191 - [test_01_login.py-->line:94] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-14 18:05:36,056 - [test_01_login.py-->line:94] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-14 18:05:36,179 - [test_01_login.py-->line:94] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-14 18:06:03,970 - [test_01_login.py-->line:94] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-14 18:06:04,049 - [test_01_login.py-->line:94] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-14 18:06:04,130 - [test_01_login.py-->line:94] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-14 18:06:05,057 - [test_01_login.py-->line:94] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-14 18:06:05,181 - [test_01_login.py-->line:94] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-14 18:07:11,620 - [test_01_login.py-->line:94] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-14 18:07:11,765 - [test_01_login.py-->line:94] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-14 18:07:11,912 - [test_01_login.py-->line:94] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-14 18:07:12,913 - [test_01_login.py-->line:94] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-14 18:07:13,108 - [test_01_login.py-->line:94] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-14 18:08:38,470 - [test_01_login.py-->line:94] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-14 18:08:46,002 - [test_01_login.py-->line:94] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-14 18:08:48,081 - [test_01_login.py-->line:94] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-14 18:08:50,404 - [test_01_login.py-->line:94] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-14 18:08:53,271 - [test_01_login.py-->line:94] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-14 18:15:20,818 - [test_01_login.py-->line:94] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-14 18:15:30,590 - [test_01_login.py-->line:94] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-14 18:15:34,991 - [test_01_login.py-->line:94] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-14 18:15:39,536 - [test_01_login.py-->line:94] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-14 19:10:01,678 - [test_01_login.py-->line:94] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-14 19:10:01,768 - [test_01_login.py-->line:94] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-14 19:10:02,468 - [test_01_login.py-->line:94] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-14 19:10:02,591 - [test_01_login.py-->line:94] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-14 19:19:05,675 - [test_01_login.py-->line:96] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-14 19:19:05,763 - [test_01_login.py-->line:96] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-14 19:19:06,435 - [test_01_login.py-->line:96] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-14 19:19:06,565 - [test_01_login.py-->line:96] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-14 19:23:15,655 - [test_01_login.py-->line:90] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-14 19:23:15,733 - [test_01_login.py-->line:90] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-14 19:23:16,428 - [test_01_login.py-->line:90] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-14 19:23:16,552 - [test_01_login.py-->line:90] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-14 19:23:53,941 - [test_01_login.py-->line:90] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-14 19:23:54,016 - [test_01_login.py-->line:90] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-14 19:23:54,741 - [test_01_login.py-->line:90] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-14 19:23:54,864 - [test_01_login.py-->line:90] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-14 19:24:47,357 - [test_01_login.py-->line:90] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-14 19:24:47,433 - [test_01_login.py-->line:90] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-14 19:24:48,139 - [test_01_login.py-->line:90] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-14 19:24:48,262 - [test_01_login.py-->line:90] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-14 19:32:41,763 - [test_01_login.py-->line:90] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-14 19:32:41,844 - [test_01_login.py-->line:90] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-14 19:32:42,812 - [test_01_login.py-->line:90] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-14 19:32:42,949 - [test_01_login.py-->line:90] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 10:49:01,616 - [test_01_login.py-->line:91] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 10:49:01,689 - [test_01_login.py-->line:91] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 10:49:01,760 - [test_01_login.py-->line:91] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 10:49:02,732 - [test_01_login.py-->line:91] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 10:49:02,856 - [test_01_login.py-->line:91] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 11:27:06,221 - [test_01_login.py-->line:91] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 11:27:06,297 - [test_01_login.py-->line:91] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 11:27:06,373 - [test_01_login.py-->line:91] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 11:27:07,315 - [test_01_login.py-->line:91] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 11:27:07,462 - [test_01_login.py-->line:91] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 11:36:01,770 - [test_01_login.py-->line:91] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 11:36:01,858 - [test_01_login.py-->line:91] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 11:36:02,223 - [test_01_login.py-->line:91] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 11:36:03,222 - [test_01_login.py-->line:91] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 11:36:03,350 - [test_01_login.py-->line:91] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 11:36:46,988 - [test_01_login.py-->line:91] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 11:36:47,122 - [test_01_login.py-->line:91] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 11:36:47,264 - [test_01_login.py-->line:91] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 11:36:48,353 - [test_01_login.py-->line:91] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 11:36:48,587 - [test_01_login.py-->line:91] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 13:39:00,439 - [test_01_login.py-->line:91] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 13:39:00,585 - [test_01_login.py-->line:91] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 13:39:00,738 - [test_01_login.py-->line:91] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 13:39:01,722 - [test_01_login.py-->line:91] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 13:39:01,907 - [test_01_login.py-->line:91] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 13:55:02,043 - [test_01_login.py-->line:91] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 13:55:04,897 - [test_01_login.py-->line:91] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 13:55:05,959 - [test_01_login.py-->line:91] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 13:55:07,850 - [test_01_login.py-->line:91] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 13:55:08,897 - [test_01_login.py-->line:91] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 13:59:57,376 - [test_01_login.py-->line:92] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 13:59:57,492 - [test_01_login.py-->line:92] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 13:59:57,636 - [test_01_login.py-->line:92] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 13:59:58,329 - [test_01_login.py-->line:92] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 13:59:58,452 - [test_01_login.py-->line:92] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 14:03:09,783 - [test_01_login.py-->line:92] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 14:03:09,862 - [test_01_login.py-->line:92] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 14:03:09,941 - [test_01_login.py-->line:92] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 14:03:10,624 - [test_01_login.py-->line:92] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 14:03:10,747 - [test_01_login.py-->line:92] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 14:03:10,856 - [test_02_product.py-->line:74] - ERROR: 添加产品为草稿模式, 执行的结果为: Fail
+具体异常为: 10000 != None : 添加产品为草稿模式
+
+2020-07-15 14:07:53,573 - [test_01_login.py-->line:92] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 14:07:53,720 - [test_01_login.py-->line:92] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 14:07:53,865 - [test_01_login.py-->line:92] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 14:07:54,916 - [test_01_login.py-->line:92] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 14:07:55,106 - [test_01_login.py-->line:92] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 14:10:05,819 - [test_01_login.py-->line:92] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 14:10:05,899 - [test_01_login.py-->line:92] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 14:10:05,978 - [test_01_login.py-->line:92] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 14:10:06,931 - [test_01_login.py-->line:92] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 14:10:07,054 - [test_01_login.py-->line:92] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 14:10:07,172 - [test_02_product.py-->line:74] - ERROR: 添加产品为草稿模式, 执行的结果为: Fail
+具体异常为: 10000 != None : 添加产品为草稿模式
+
+2020-07-15 14:12:10,077 - [test_01_login.py-->line:92] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 14:12:10,156 - [test_01_login.py-->line:92] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 14:12:10,234 - [test_01_login.py-->line:92] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 14:12:11,165 - [test_01_login.py-->line:92] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 14:12:11,288 - [test_01_login.py-->line:92] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 14:12:11,396 - [test_02_product.py-->line:74] - ERROR: 添加产品为草稿模式, 执行的结果为: Fail
+具体异常为: 10000 != None : 添加产品为草稿模式
+
+2020-07-15 14:14:49,596 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 14:14:49,746 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 14:14:49,888 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 14:14:50,928 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 14:14:51,116 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 14:28:45,519 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 14:28:45,607 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 14:28:45,691 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 14:28:46,353 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 14:28:46,491 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 14:28:46,619 - [test_02_product.py-->line:74] - ERROR: 添加产品为草稿模式, 执行的结果为: Fail
+具体异常为: 10000 != None : 添加产品为草稿模式
+
+2020-07-15 14:32:11,275 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 14:32:17,923 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 14:32:18,381 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 14:32:19,173 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 14:32:19,373 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 14:32:29,009 - [test_02_product.py-->line:74] - ERROR: 添加产品为草稿模式, 执行的结果为: Fail
+具体异常为: 10000 != None : 添加产品为草稿模式
+
+2020-07-15 14:35:02,144 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 14:35:02,227 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 14:35:03,223 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 14:35:03,348 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 14:35:04,213 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 14:35:04,346 - [test_02_product.py-->line:74] - ERROR: 添加产品为草稿模式, 执行的结果为: Fail
+具体异常为: 10000 != None : 添加产品为草稿模式
+
+2020-07-15 14:42:21,057 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 14:42:22,082 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 14:42:23,123 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 14:42:23,629 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 14:42:24,954 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 14:42:29,562 - [test_02_product.py-->line:91] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 14:42:30,518 - [test_02_product.py-->line:91] - INFO: 添加产品为草稿模式, 执行的结果为: Success
+
+2020-07-15 14:45:42,893 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 14:45:42,986 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 14:45:43,753 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 14:45:43,893 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 14:45:44,736 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 14:45:45,866 - [test_02_product.py-->line:91] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 14:45:46,867 - [test_02_product.py-->line:91] - INFO: 添加产品为草稿模式, 执行的结果为: Success
+
+2020-07-15 14:55:39,074 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 14:55:39,160 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 14:55:39,910 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 14:55:40,265 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 14:55:41,110 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 14:55:42,253 - [test_02_product.py-->line:91] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 14:55:42,393 - [test_02_product.py-->line:74] - ERROR: 获取产品列表, 执行的结果为: Fail
+具体异常为: 10000 != 99999 : 获取产品列表
+
+2020-07-15 14:55:43,007 - [test_02_product.py-->line:91] - INFO: 添加产品为草稿模式, 执行的结果为: Success
+
+2020-07-15 14:55:57,069 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 14:55:57,149 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 14:55:57,881 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 14:55:58,011 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 14:55:59,262 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 14:56:01,227 - [test_02_product.py-->line:91] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 14:56:01,367 - [test_02_product.py-->line:74] - ERROR: 获取产品列表, 执行的结果为: Fail
+具体异常为: 10000 != 99999 : 获取产品列表
+
+2020-07-15 14:56:01,966 - [test_02_product.py-->line:91] - INFO: 添加产品为草稿模式, 执行的结果为: Success
+
+2020-07-15 15:15:41,915 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 15:15:42,034 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 15:15:42,779 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 15:15:42,936 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 15:15:44,333 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 15:15:45,300 - [test_02_product.py-->line:91] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 15:15:45,425 - [test_02_product.py-->line:74] - ERROR: 获取产品列表, 执行的结果为: Fail
+具体异常为: 10000 != 99999 : 获取产品列表
+
+2020-07-15 15:15:46,059 - [test_02_product.py-->line:91] - INFO: 添加产品为草稿模式, 执行的结果为: Success
+
+2020-07-15 15:48:36,500 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 15:48:36,578 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 15:48:37,552 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 15:48:37,675 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 15:48:38,489 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 15:48:39,562 - [test_02_product.py-->line:91] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 15:48:39,649 - [test_02_product.py-->line:74] - ERROR: 获取产品列表, 执行的结果为: Fail
+具体异常为: 10000 != 99999 : 获取产品列表
+
+2020-07-15 15:48:40,263 - [test_02_product.py-->line:91] - INFO: 添加产品为草稿模式, 执行的结果为: Success
+
+2020-07-15 15:58:22,892 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 15:58:22,973 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 15:58:23,714 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 15:58:23,839 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 15:58:24,903 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 15:58:26,020 - [test_02_product.py-->line:91] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 15:58:26,106 - [test_02_product.py-->line:74] - ERROR: 获取产品列表, 执行的结果为: Fail
+具体异常为: 10000 != 99999 : 获取产品列表
+
+2020-07-15 15:58:26,703 - [test_02_product.py-->line:91] - INFO: 添加产品为草稿模式, 执行的结果为: Success
+
+2020-07-15 15:58:26,785 - [test_02_product.py-->line:74] - ERROR: 获取产品列表, 执行的结果为: Fail
+具体异常为: 10000 != 99999 : 获取产品列表
+
+2020-07-15 16:01:36,958 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 16:01:37,039 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 16:01:37,951 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 16:01:38,079 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 16:01:38,892 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 16:01:39,749 - [test_02_product.py-->line:91] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 16:01:40,375 - [test_02_product.py-->line:91] - INFO: 添加产品为草稿模式, 执行的结果为: Success
+
+2020-07-15 16:04:23,304 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 16:04:23,702 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 16:04:24,707 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 16:04:25,063 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 16:04:26,145 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 16:04:27,860 - [test_02_product.py-->line:91] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 16:04:28,936 - [test_02_product.py-->line:91] - INFO: 添加产品为草稿模式, 执行的结果为: Success
+
+2020-07-15 16:04:29,282 - [test_02_product.py-->line:74] - ERROR: 获取列表, 执行的结果为: Fail
+具体异常为: 10000 != 99999 : 获取列表
+
+2020-07-15 16:14:58,980 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 16:14:59,056 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 16:14:59,782 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 16:14:59,910 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 16:15:00,923 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 16:15:01,811 - [test_02_product.py-->line:91] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 16:15:02,386 - [test_02_product.py-->line:91] - INFO: 添加产品为草稿模式, 执行的结果为: Success
+
+2020-07-15 16:15:02,470 - [test_02_product.py-->line:74] - ERROR: 获取列表, 执行的结果为: Fail
+具体异常为: 10000 != 99999 : 获取列表
+
+2020-07-15 16:18:15,043 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 16:18:15,194 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 16:18:15,987 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 16:18:16,177 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 16:18:17,094 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 16:18:41,520 - [test_02_product.py-->line:91] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 16:19:03,246 - [test_02_product.py-->line:91] - INFO: 添加产品为草稿模式, 执行的结果为: Success
+
+2020-07-15 16:26:16,600 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 16:26:16,677 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 16:26:17,642 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 16:26:17,763 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 16:26:18,594 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 16:26:19,452 - [test_02_product.py-->line:91] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 16:26:20,036 - [test_02_product.py-->line:91] - INFO: 添加产品为草稿模式, 执行的结果为: Success
+
+2020-07-15 16:26:20,116 - [test_02_product.py-->line:74] - ERROR: 获取列表, 执行的结果为: Fail
+具体异常为: 10000 != 99999 : 获取列表
+
+2020-07-15 16:29:01,507 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 16:29:01,583 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 16:29:02,502 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 16:29:02,624 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 16:29:03,435 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 16:29:04,301 - [test_02_product.py-->line:91] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 16:29:04,913 - [test_02_product.py-->line:91] - INFO: 添加产品为草稿模式, 执行的结果为: Success
+
+2020-07-15 16:29:05,994 - [test_02_product.py-->line:91] - INFO: 获取列表, 执行的结果为: Success
+
+2020-07-15 18:45:46,363 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 18:45:46,457 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 18:45:47,218 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 18:45:47,346 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 18:45:48,175 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 18:45:49,063 - [test_02_product.py-->line:91] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 18:45:49,652 - [test_02_product.py-->line:91] - INFO: 添加产品为草稿模式, 执行的结果为: Success
+
+2020-07-15 18:45:50,230 - [test_02_product.py-->line:91] - INFO: 获取列表, 执行的结果为: Success
+
+2020-07-15 18:47:56,406 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 18:47:56,486 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 18:47:57,239 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 18:47:57,367 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 18:47:58,467 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 18:47:59,578 - [test_02_product.py-->line:90] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 18:48:00,178 - [test_02_product.py-->line:90] - INFO: 添加产品为草稿模式, 执行的结果为: Success
+
+2020-07-15 18:48:00,824 - [test_02_product.py-->line:90] - INFO: 获取列表, 执行的结果为: Success
+
+2020-07-15 18:49:13,855 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-15 18:49:13,937 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-15 18:49:14,688 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-15 18:49:14,810 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-15 18:49:15,862 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 18:49:16,959 - [test_02_product.py-->line:90] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-15 18:49:17,571 - [test_02_product.py-->line:90] - INFO: 添加产品为草稿模式, 执行的结果为: Success
+
+2020-07-15 18:49:18,354 - [test_02_product.py-->line:90] - INFO: 获取列表, 执行的结果为: Success
+
+2020-07-16 15:32:01,828 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-16 15:32:01,904 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-16 15:32:02,961 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-16 15:32:03,101 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-16 15:32:04,126 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-16 15:32:05,395 - [test_02_product.py-->line:96] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-16 15:32:06,185 - [test_02_product.py-->line:96] - INFO: 添加产品为草稿模式, 执行的结果为: Success
+
+2020-07-16 15:32:07,049 - [test_02_product.py-->line:96] - INFO: 获取列表, 执行的结果为: Success
+
+2020-07-16 15:32:08,396 - [test_03_company.py-->line:90] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-16 15:32:09,171 - [test_03_company.py-->line:90] - INFO: 添加产品为草稿模式, 执行的结果为: Success
+
+2020-07-16 15:32:10,122 - [test_03_company.py-->line:90] - INFO: 获取列表, 执行的结果为: Success
+
+2020-07-16 15:34:20,426 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-16 15:34:20,518 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-16 15:34:21,645 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-16 15:34:21,786 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-16 15:34:22,778 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-16 15:34:23,866 - [test_02_product.py-->line:96] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-16 15:34:24,648 - [test_02_product.py-->line:96] - INFO: 添加产品为草稿模式, 执行的结果为: Success
+
+2020-07-16 15:34:25,670 - [test_02_product.py-->line:96] - INFO: 获取列表, 执行的结果为: Success
+
+2020-07-16 15:34:27,017 - [test_03_company.py-->line:90] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-16 15:34:27,788 - [test_03_company.py-->line:90] - INFO: 添加产品为草稿模式, 执行的结果为: Success
+
+2020-07-16 15:34:28,871 - [test_03_company.py-->line:90] - INFO: 获取列表, 执行的结果为: Success
+
+2020-07-16 15:34:28,959 - [test_03_company.py-->line:74] - ERROR: 删除产品, 执行的结果为: Fail
+具体异常为: 10000 != 99999 : 删除产品
+
+2020-07-16 15:52:27,336 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-16 15:52:27,435 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-16 15:52:28,584 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-16 15:52:28,735 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-16 15:52:29,767 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-16 15:52:30,827 - [test_02_product.py-->line:96] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-16 15:52:31,611 - [test_02_product.py-->line:96] - INFO: 添加产品为草稿模式, 执行的结果为: Success
+
+2020-07-16 15:52:32,786 - [test_02_product.py-->line:96] - INFO: 获取列表, 执行的结果为: Success
+
+2020-07-16 15:55:11,870 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-16 15:55:11,952 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-16 15:55:12,825 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-16 15:55:12,970 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-16 15:55:14,264 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-16 15:55:15,320 - [test_02_product.py-->line:96] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-16 15:55:16,098 - [test_02_product.py-->line:96] - INFO: 添加产品为草稿模式, 执行的结果为: Success
+
+2020-07-16 15:55:17,344 - [test_02_product.py-->line:96] - INFO: 获取列表, 执行的结果为: Success
+
+2020-07-16 15:59:45,752 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-16 15:59:45,904 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-16 15:59:46,780 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-16 15:59:46,931 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-16 15:59:47,950 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-16 15:59:48,108 - [test_02_product.py-->line:81] - ERROR: 正常登录, 执行的结果为: Fail
+具体异常为: 10000 != None : 正常登录
+
+2020-07-16 15:59:48,215 - [test_02_product.py-->line:81] - ERROR: 添加产品为草稿模式, 执行的结果为: Fail
+具体异常为: 10000 != None : 添加产品为草稿模式
+
+2020-07-16 15:59:48,308 - [test_02_product.py-->line:81] - ERROR: 获取列表, 执行的结果为: Fail
+具体异常为: 10000 != None : 获取列表
+
+2020-07-16 16:01:07,646 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-16 16:01:07,734 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-16 16:01:08,685 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-16 16:01:08,835 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-16 16:01:09,852 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-16 16:01:09,965 - [test_02_product.py-->line:81] - ERROR: 正常登录, 执行的结果为: Fail
+具体异常为: 10000 != None : 正常登录
+
+2020-07-16 16:01:10,042 - [test_02_product.py-->line:81] - ERROR: 添加产品为草稿模式, 执行的结果为: Fail
+具体异常为: 10000 != None : 添加产品为草稿模式
+
+2020-07-16 16:01:10,124 - [test_02_product.py-->line:81] - ERROR: 获取列表, 执行的结果为: Fail
+具体异常为: 10000 != None : 获取列表
+
+2020-07-16 16:02:40,957 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-16 16:02:41,117 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-16 16:02:42,318 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-16 16:02:42,609 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-16 16:02:43,903 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-16 16:02:44,117 - [test_02_product.py-->line:81] - ERROR: 正常登录, 执行的结果为: Fail
+具体异常为: 10000 != None : 正常登录
+
+2020-07-16 16:02:44,279 - [test_02_product.py-->line:81] - ERROR: 添加产品为草稿模式, 执行的结果为: Fail
+具体异常为: 10000 != None : 添加产品为草稿模式
+
+2020-07-16 16:02:44,446 - [test_02_product.py-->line:81] - ERROR: 获取列表, 执行的结果为: Fail
+具体异常为: 10000 != None : 获取列表
+
+2020-07-16 16:05:21,243 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-16 16:05:21,411 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-16 16:05:22,570 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-16 16:05:22,800 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-16 16:05:24,140 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-16 16:05:24,338 - [test_02_product.py-->line:81] - ERROR: 正常登录, 执行的结果为: Fail
+具体异常为: 10000 != None : 正常登录
+
+2020-07-16 16:05:24,496 - [test_02_product.py-->line:81] - ERROR: 添加产品为草稿模式, 执行的结果为: Fail
+具体异常为: 10000 != None : 添加产品为草稿模式
+
+2020-07-16 16:05:24,651 - [test_02_product.py-->line:81] - ERROR: 获取列表, 执行的结果为: Fail
+具体异常为: 10000 != None : 获取列表
+
+2020-07-16 16:07:51,140 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-16 16:07:51,219 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-16 16:07:52,103 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-16 16:07:52,247 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-16 16:07:53,256 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-16 16:07:53,366 - [test_02_product.py-->line:81] - ERROR: 正常登录, 执行的结果为: Fail
+具体异常为: 10000 != None : 正常登录
+
+2020-07-16 16:07:53,439 - [test_02_product.py-->line:81] - ERROR: 添加产品为草稿模式, 执行的结果为: Fail
+具体异常为: 10000 != None : 添加产品为草稿模式
+
+2020-07-16 16:07:53,517 - [test_02_product.py-->line:81] - ERROR: 获取列表, 执行的结果为: Fail
+具体异常为: 10000 != None : 获取列表
+
+2020-07-16 16:09:02,694 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-16 16:09:02,786 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-16 16:09:03,677 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-16 16:09:03,836 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-16 16:09:04,861 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-16 16:09:04,967 - [test_02_product.py-->line:81] - ERROR: 正常登录, 执行的结果为: Fail
+具体异常为: 10000 != None : 正常登录
+
+2020-07-16 16:09:05,038 - [test_02_product.py-->line:81] - ERROR: 添加产品为草稿模式, 执行的结果为: Fail
+具体异常为: 10000 != None : 添加产品为草稿模式
+
+2020-07-16 16:09:05,111 - [test_02_product.py-->line:81] - ERROR: 获取列表, 执行的结果为: Fail
+具体异常为: 10000 != None : 获取列表
+
+2020-07-16 16:09:05,402 - [test_02_product.py-->line:81] - ERROR: 删除产品, 执行的结果为: Fail
+具体异常为: 10000 != None : 删除产品
+
+2020-07-16 16:11:27,555 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-16 16:11:27,642 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-16 16:11:28,519 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-16 16:11:28,669 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-16 16:11:29,687 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-16 16:11:29,809 - [test_02_product.py-->line:81] - ERROR: 正常登录, 执行的结果为: Fail
+具体异常为: 10000 != None : 正常登录
+
+2020-07-16 16:11:29,887 - [test_02_product.py-->line:81] - ERROR: 添加产品为草稿模式, 执行的结果为: Fail
+具体异常为: 10000 != None : 添加产品为草稿模式
+
+2020-07-16 16:11:29,965 - [test_02_product.py-->line:81] - ERROR: 获取列表, 执行的结果为: Fail
+具体异常为: 10000 != None : 获取列表
+
+2020-07-16 16:22:46,456 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-16 16:22:46,531 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-16 16:22:47,674 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-16 16:22:47,821 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-16 16:22:49,076 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-16 16:22:49,191 - [test_02_product.py-->line:81] - ERROR: 正常登录, 执行的结果为: Fail
+具体异常为: 10000 != None : 正常登录
+
+2020-07-16 16:22:49,265 - [test_02_product.py-->line:81] - ERROR: 添加产品为草稿模式, 执行的结果为: Fail
+具体异常为: 10000 != None : 添加产品为草稿模式
+
+2020-07-16 16:22:49,344 - [test_02_product.py-->line:81] - ERROR: 获取列表, 执行的结果为: Fail
+具体异常为: 10000 != None : 获取列表
+
+2020-07-16 16:22:49,639 - [test_02_product.py-->line:81] - ERROR: 删除产品, 执行的结果为: Fail
+具体异常为: 10000 != None : 删除产品
+
+2020-07-16 16:34:32,349 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-16 16:34:32,432 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-16 16:34:33,502 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-16 16:34:33,658 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-16 16:34:34,666 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-16 16:34:35,715 - [test_02_product.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-16 16:34:36,505 - [test_02_product.py-->line:97] - INFO: 添加产品为草稿模式, 执行的结果为: Success
+
+2020-07-16 16:34:37,862 - [test_02_product.py-->line:97] - INFO: 获取列表, 执行的结果为: Success
+
+2020-07-16 16:34:38,645 - [test_02_product.py-->line:97] - INFO: 删除产品, 执行的结果为: Success
+
+2020-07-16 16:58:20,836 - [test_03_company.py-->line:90] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-16 17:00:27,722 - [test_03_company.py-->line:90] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-16 17:00:27,953 - [test_03_company.py-->line:90] - INFO: 获取公司信息, 执行的结果为: Success
+
+2020-07-20 15:04:22,540 - [test_03_company.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-20 15:04:24,523 - [test_03_company.py-->line:97] - INFO: 获取公司信息, 执行的结果为: Success
+
+2020-07-20 15:05:13,794 - [test_03_company.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-20 15:06:14,329 - [test_03_company.py-->line:97] - INFO: 获取公司信息, 执行的结果为: Success
+
+2020-07-20 15:07:10,035 - [test_03_company.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-20 16:08:18,774 - [test_03_company.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-20 16:08:20,720 - [test_03_company.py-->line:97] - INFO: 获取公司信息, 执行的结果为: Success
+
+2020-07-20 16:45:28,362 - [test_02_product.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-20 16:45:29,119 - [test_02_product.py-->line:97] - INFO: 添加产品为草稿模式, 执行的结果为: Success
+
+2020-07-20 16:45:30,008 - [test_02_product.py-->line:97] - INFO: 获取列表, 执行的结果为: Success
+
+2020-07-20 16:45:30,820 - [test_02_product.py-->line:97] - INFO: 删除产品, 执行的结果为: Success
+
+2020-07-20 16:45:52,417 - [test_02_product.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-20 16:45:53,154 - [test_02_product.py-->line:97] - INFO: 添加产品为草稿模式, 执行的结果为: Success
+
+2020-07-20 16:45:54,017 - [test_02_product.py-->line:97] - INFO: 获取列表, 执行的结果为: Success
+
+2020-07-20 16:45:54,743 - [test_02_product.py-->line:97] - INFO: 删除产品, 执行的结果为: Success
+
+2020-07-20 17:04:44,162 - [test_02_product.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-20 17:04:44,266 - [test_02_product.py-->line:81] - ERROR: 添加产品为草稿模式, 执行的结果为: Fail
+具体异常为: 10000 != None : 添加产品为草稿模式
+
+2020-07-20 17:04:44,368 - [test_02_product.py-->line:81] - ERROR: 获取列表, 执行的结果为: Fail
+具体异常为: 10000 != None : 获取列表
+
+2020-07-20 17:04:44,693 - [test_02_product.py-->line:81] - ERROR: 删除产品, 执行的结果为: Fail
+具体异常为: 10000 != None : 删除产品
+
+2020-07-20 17:05:14,373 - [test_02_product.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-20 17:05:15,227 - [test_02_product.py-->line:97] - INFO: 添加产品为草稿模式, 执行的结果为: Success
+
+2020-07-20 17:05:16,251 - [test_02_product.py-->line:97] - INFO: 获取列表, 执行的结果为: Success
+
+2020-07-20 17:05:17,059 - [test_02_product.py-->line:97] - INFO: 删除产品, 执行的结果为: Success
+
+2020-07-20 17:05:23,845 - [test_02_product.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-20 17:05:23,942 - [test_02_product.py-->line:81] - ERROR: 添加产品为草稿模式, 执行的结果为: Fail
+具体异常为: 10000 != None : 添加产品为草稿模式
+
+2020-07-20 17:05:24,038 - [test_02_product.py-->line:81] - ERROR: 获取列表, 执行的结果为: Fail
+具体异常为: 10000 != None : 获取列表
+
+2020-07-20 17:05:24,375 - [test_02_product.py-->line:81] - ERROR: 删除产品, 执行的结果为: Fail
+具体异常为: 10000 != None : 删除产品
+
+2020-07-23 18:19:35,659 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2020-07-23 18:19:35,755 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2020-07-23 18:19:37,088 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2020-07-23 18:19:37,276 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2020-07-23 18:19:38,121 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-23 18:19:38,265 - [test_01_login.py-->line:76] - ERROR: 手机号码输入特殊字符, 执行的结果为: Fail
+具体异常为: 22018 != 22022 : 手机号码输入特殊字符
+
+2020-07-23 18:21:32,835 - [test_02_product.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-23 18:21:33,431 - [test_02_product.py-->line:97] - INFO: 添加产品为草稿模式, 执行的结果为: Success
+
+2020-07-23 18:21:34,694 - [test_02_product.py-->line:97] - INFO: 获取列表, 执行的结果为: Success
+
+2020-07-23 18:21:35,357 - [test_02_product.py-->line:97] - INFO: 删除产品, 执行的结果为: Success
+
+2020-07-23 18:49:53,476 - [test_03_company.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-23 18:49:55,273 - [test_03_company.py-->line:78] - ERROR: 获取公司信息, 执行的结果为: Fail
+具体异常为: 10000 != None : 获取公司信息
+
+2020-07-23 18:50:49,722 - [test_03_company.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-23 18:50:51,574 - [test_03_company.py-->line:78] - ERROR: 获取公司信息, 执行的结果为: Fail
+具体异常为: 10000 != None : 获取公司信息
+
+2020-07-23 19:23:27,006 - [test_03_company.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-23 19:23:28,930 - [test_03_company.py-->line:78] - ERROR: 获取公司信息, 执行的结果为: Fail
+具体异常为: 10000 != None : 获取公司信息
+
+2020-07-23 19:24:33,870 - [test_03_company.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-23 19:27:49,865 - [test_03_company.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-23 19:27:51,518 - [test_03_company.py-->line:97] - INFO: 获取用户信息, 执行的结果为: Success
+
+2020-07-23 19:27:51,629 - [test_03_company.py-->line:78] - ERROR: 获取公司信息, 执行的结果为: Fail
+具体异常为: 10000 != None : 获取公司信息
+
+2020-07-23 19:28:26,208 - [test_03_company.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-23 19:28:27,931 - [test_03_company.py-->line:97] - INFO: 获取用户信息, 执行的结果为: Success
+
+2020-07-23 19:36:22,067 - [test_03_company.py-->line:98] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-23 19:36:24,009 - [test_03_company.py-->line:98] - INFO: 获取用户信息, 执行的结果为: Success
+
+2020-07-23 19:36:24,144 - [test_03_company.py-->line:79] - ERROR: 获取公司信息, 执行的结果为: Fail
+具体异常为: 10000 != None : 获取公司信息
+
+2020-07-23 19:49:17,902 - [test_03_company.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-23 19:49:19,634 - [test_03_company.py-->line:97] - INFO: 获取用户信息, 执行的结果为: Success
+
+2020-07-23 19:49:19,738 - [test_03_company.py-->line:78] - ERROR: 获取公司信息, 执行的结果为: Fail
+具体异常为: 10000 != None : 获取公司信息
+
+2020-07-23 19:51:58,349 - [test_03_company.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-23 19:52:00,225 - [test_03_company.py-->line:97] - INFO: 获取用户信息, 执行的结果为: Success
+
+2020-07-23 19:52:00,336 - [test_03_company.py-->line:78] - ERROR: 获取公司信息, 执行的结果为: Fail
+具体异常为: 10000 != None : 获取公司信息
+
+2020-07-24 13:30:41,986 - [test_03_company.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-24 13:30:43,550 - [test_03_company.py-->line:97] - INFO: 获取用户信息, 执行的结果为: Success
+
+2020-07-24 13:30:43,655 - [test_03_company.py-->line:78] - ERROR: 获取公司信息, 执行的结果为: Fail
+具体异常为: 10000 != None : 获取公司信息
+
+2020-07-24 13:31:01,761 - [test_03_company.py-->line:98] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-24 13:31:03,409 - [test_03_company.py-->line:98] - INFO: 获取用户信息, 执行的结果为: Success
+
+2020-07-24 13:31:03,515 - [test_03_company.py-->line:79] - ERROR: 获取公司信息, 执行的结果为: Fail
+具体异常为: 10000 != None : 获取公司信息
+
+2020-07-24 13:32:19,029 - [test_03_company.py-->line:98] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-24 13:32:21,836 - [test_03_company.py-->line:98] - INFO: 获取用户信息, 执行的结果为: Success
+
+2020-07-24 13:32:21,951 - [test_03_company.py-->line:79] - ERROR: 获取公司信息, 执行的结果为: Fail
+具体异常为: 10000 != None : 获取公司信息
+
+2020-07-24 13:49:52,308 - [test_03_company.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-24 13:49:53,760 - [test_03_company.py-->line:97] - INFO: 获取用户信息, 执行的结果为: Success
+
+2020-07-24 13:49:53,953 - [test_03_company.py-->line:78] - ERROR: 获取公司信息, 执行的结果为: Fail
+具体异常为: 10000 != 99999 : 获取公司信息
+
+2020-07-24 14:57:16,696 - [test_03_company.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-24 14:57:18,309 - [test_03_company.py-->line:97] - INFO: 获取用户信息, 执行的结果为: Success
+
+2020-07-24 14:57:18,517 - [test_03_company.py-->line:97] - INFO: 获取公司信息, 执行的结果为: Success
+
+2020-07-24 14:57:18,969 - [test_03_company.py-->line:97] - INFO: 编辑-公司名称为空, 执行的结果为: Success
+
+2020-07-24 14:57:19,378 - [test_03_company.py-->line:78] - ERROR: 编辑-公司法人为空, 执行的结果为: Fail
+具体异常为: 10001 != 99999 : 编辑-公司法人为空
+
+2020-07-24 14:57:19,956 - [test_03_company.py-->line:78] - ERROR: 编辑-公司电话为空, 执行的结果为: Fail
+具体异常为: 10002 != 99999 : 编辑-公司电话为空
+
+2020-07-24 14:57:20,367 - [test_03_company.py-->line:78] - ERROR: 编辑-公司地址为空, 执行的结果为: Fail
+具体异常为: 10003 != 99999 : 编辑-公司地址为空
+
+2020-07-24 14:57:20,727 - [test_03_company.py-->line:78] - ERROR: 编辑-公司详细地址为空, 执行的结果为: Fail
+具体异常为: 10004 != 99999 : 编辑-公司详细地址为空
+
+2020-07-24 14:57:21,098 - [test_03_company.py-->line:78] - ERROR: 编辑-公司统一社会信用代码为空, 执行的结果为: Fail
+具体异常为: 10005 != 99999 : 编辑-公司统一社会信用代码为空
+
+2020-07-24 14:57:21,465 - [test_03_company.py-->line:78] - ERROR: 编辑-公司口号为空, 执行的结果为: Fail
+具体异常为: 10006 != 99999 : 编辑-公司口号为空
+
+2020-07-24 14:57:21,821 - [test_03_company.py-->line:78] - ERROR: 编辑-公司简介为空, 执行的结果为: Fail
+具体异常为: 10007 != 99999 : 编辑-公司简介为空
+
+2020-07-24 15:12:54,258 - [test_03_company.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2020-07-24 15:12:55,958 - [test_03_company.py-->line:97] - INFO: 获取用户信息, 执行的结果为: Success
+
+2020-07-24 15:12:56,201 - [test_03_company.py-->line:97] - INFO: 获取公司信息, 执行的结果为: Success
+
+2020-07-24 15:12:56,662 - [test_03_company.py-->line:97] - INFO: 编辑-公司名称为空, 执行的结果为: Success
+
+2020-07-24 15:12:57,091 - [test_03_company.py-->line:78] - ERROR: 编辑-公司法人为空, 执行的结果为: Fail
+具体异常为: 10001 != 99999 : 编辑-公司法人为空
+
+2020-07-24 15:12:57,683 - [test_03_company.py-->line:78] - ERROR: 编辑-公司电话为空, 执行的结果为: Fail
+具体异常为: 10002 != 99999 : 编辑-公司电话为空
+
+2020-07-24 15:12:58,115 - [test_03_company.py-->line:78] - ERROR: 编辑-公司地址为空, 执行的结果为: Fail
+具体异常为: 10003 != 99999 : 编辑-公司地址为空
+
+2020-07-24 15:12:58,476 - [test_03_company.py-->line:78] - ERROR: 编辑-公司详细地址为空, 执行的结果为: Fail
+具体异常为: 10004 != 99999 : 编辑-公司详细地址为空
+
+2020-07-24 15:12:58,872 - [test_03_company.py-->line:78] - ERROR: 编辑-公司统一社会信用代码为空, 执行的结果为: Fail
+具体异常为: 10005 != 99999 : 编辑-公司统一社会信用代码为空
+
+2020-07-24 15:12:59,239 - [test_03_company.py-->line:78] - ERROR: 编辑-公司口号为空, 执行的结果为: Fail
+具体异常为: 10006 != 99999 : 编辑-公司口号为空
+
+2020-07-24 15:12:59,676 - [test_03_company.py-->line:78] - ERROR: 编辑-公司简介为空, 执行的结果为: Fail
+具体异常为: 10007 != 99999 : 编辑-公司简介为空
+
+2021-01-07 14:03:24,240 - [test_03_company.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2021-01-07 14:03:26,561 - [test_03_company.py-->line:97] - INFO: 获取用户信息, 执行的结果为: Success
+
+2021-01-07 14:03:26,767 - [test_03_company.py-->line:97] - INFO: 获取公司信息, 执行的结果为: Success
+
+2021-01-07 14:03:27,576 - [test_03_company.py-->line:97] - INFO: 编辑-公司名称为空, 执行的结果为: Success
+
+2021-01-07 14:03:27,919 - [test_03_company.py-->line:78] - ERROR: 编辑-公司法人为空, 执行的结果为: Fail
+具体异常为: 10001 != 99996 : 编辑-公司法人为空
+
+2021-01-07 14:03:28,150 - [test_03_company.py-->line:78] - ERROR: 编辑-公司电话为空, 执行的结果为: Fail
+具体异常为: 10002 != 99996 : 编辑-公司电话为空
+
+2021-01-07 14:03:28,391 - [test_03_company.py-->line:78] - ERROR: 编辑-公司地址为空, 执行的结果为: Fail
+具体异常为: 10003 != 99996 : 编辑-公司地址为空
+
+2021-01-07 14:03:28,642 - [test_03_company.py-->line:78] - ERROR: 编辑-公司详细地址为空, 执行的结果为: Fail
+具体异常为: 10004 != 99996 : 编辑-公司详细地址为空
+
+2021-01-07 14:03:28,879 - [test_03_company.py-->line:78] - ERROR: 编辑-公司统一社会信用代码为空, 执行的结果为: Fail
+具体异常为: 10005 != 99996 : 编辑-公司统一社会信用代码为空
+
+2021-01-07 14:03:29,111 - [test_03_company.py-->line:78] - ERROR: 编辑-公司口号为空, 执行的结果为: Fail
+具体异常为: 10006 != 99996 : 编辑-公司口号为空
+
+2021-01-07 14:03:29,347 - [test_03_company.py-->line:78] - ERROR: 编辑-公司简介为空, 执行的结果为: Fail
+具体异常为: 10007 != 99996 : 编辑-公司简介为空
+
+2021-01-07 14:32:59,427 - [test_03_company.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2021-01-07 14:33:01,922 - [test_03_company.py-->line:97] - INFO: 获取用户信息, 执行的结果为: Success
+
+2021-01-07 14:33:02,142 - [test_03_company.py-->line:97] - INFO: 获取公司信息, 执行的结果为: Success
+
+2021-01-07 14:33:02,926 - [test_03_company.py-->line:97] - INFO: 编辑-公司名称为空, 执行的结果为: Success
+
+2021-01-07 14:33:03,160 - [test_03_company.py-->line:78] - ERROR: 编辑-公司法人为空, 执行的结果为: Fail
+具体异常为: 10001 != 99996 : 编辑-公司法人为空
+
+2021-01-07 14:33:03,407 - [test_03_company.py-->line:78] - ERROR: 编辑-法人电话为空, 执行的结果为: Fail
+具体异常为: 10002 != 99996 : 编辑-法人电话为空
+
+2021-01-07 14:33:03,642 - [test_03_company.py-->line:78] - ERROR: 编辑-公司电话为空, 执行的结果为: Fail
+具体异常为: 10002 != 99996 : 编辑-公司电话为空
+
+2021-01-07 14:33:03,875 - [test_03_company.py-->line:78] - ERROR: 编辑-公司地址为空, 执行的结果为: Fail
+具体异常为: 10003 != 99996 : 编辑-公司地址为空
+
+2021-01-07 14:33:04,101 - [test_03_company.py-->line:78] - ERROR: 编辑-公司详细地址为空, 执行的结果为: Fail
+具体异常为: 10004 != 99996 : 编辑-公司详细地址为空
+
+2021-01-07 14:33:04,337 - [test_03_company.py-->line:78] - ERROR: 编辑-公司统一社会信用代码为空, 执行的结果为: Fail
+具体异常为: 10005 != 99996 : 编辑-公司统一社会信用代码为空
+
+2021-01-07 14:33:04,572 - [test_03_company.py-->line:78] - ERROR: 编辑-公司口号为空, 执行的结果为: Fail
+具体异常为: 10006 != 99996 : 编辑-公司口号为空
+
+2021-01-07 14:33:04,809 - [test_03_company.py-->line:78] - ERROR: 编辑-公司简介为空, 执行的结果为: Fail
+具体异常为: 10007 != 99996 : 编辑-公司简介为空
+
+2021-01-07 15:10:47,724 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2021-01-07 15:10:47,935 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2021-01-07 15:10:48,718 - [test_01_login.py-->line:76] - ERROR: 密码错误, 执行的结果为: Fail
+具体异常为: 22018 != 20001 : 密码错误
+
+2021-01-07 15:10:48,942 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2021-01-07 15:10:49,767 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2021-01-07 15:10:49,980 - [test_01_login.py-->line:93] - INFO: 手机号码输入特殊字符, 执行的结果为: Success
+
+2021-01-07 15:10:50,812 - [test_02_product.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2021-01-07 15:10:51,587 - [test_02_product.py-->line:81] - ERROR: 添加产品为草稿模式, 执行的结果为: Fail
+具体异常为: 10000 != 99998 : 添加产品为草稿模式
+
+2021-01-07 15:10:52,908 - [test_02_product.py-->line:97] - INFO: 获取列表, 执行的结果为: Success
+
+2021-01-07 15:10:53,487 - [test_02_product.py-->line:97] - INFO: 删除产品, 执行的结果为: Success
+
+2021-01-07 15:10:54,373 - [test_03_company.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2021-01-07 15:10:56,725 - [test_03_company.py-->line:97] - INFO: 获取用户信息, 执行的结果为: Success
+
+2021-01-07 15:10:56,984 - [test_03_company.py-->line:97] - INFO: 获取公司信息, 执行的结果为: Success
+
+2021-01-07 15:10:57,937 - [test_03_company.py-->line:78] - ERROR: 编辑-公司名称为空, 执行的结果为: Fail
+具体异常为: 99996 != 10000 : 编辑-公司名称为空
+
+2021-01-07 15:10:58,183 - [test_03_company.py-->line:78] - ERROR: 编辑-公司法人为空, 执行的结果为: Fail
+具体异常为: 10001 != 99996 : 编辑-公司法人为空
+
+2021-01-07 15:10:58,441 - [test_03_company.py-->line:78] - ERROR: 编辑-法人电话为空, 执行的结果为: Fail
+具体异常为: 10002 != 99996 : 编辑-法人电话为空
+
+2021-01-07 15:10:58,717 - [test_03_company.py-->line:78] - ERROR: 编辑-公司电话为空, 执行的结果为: Fail
+具体异常为: 10002 != 99996 : 编辑-公司电话为空
+
+2021-01-07 15:10:58,960 - [test_03_company.py-->line:78] - ERROR: 编辑-公司地址为空, 执行的结果为: Fail
+具体异常为: 10003 != 99996 : 编辑-公司地址为空
+
+2021-01-07 15:10:59,204 - [test_03_company.py-->line:78] - ERROR: 编辑-公司详细地址为空, 执行的结果为: Fail
+具体异常为: 10004 != 99996 : 编辑-公司详细地址为空
+
+2021-01-07 15:10:59,489 - [test_03_company.py-->line:78] - ERROR: 编辑-公司统一社会信用代码为空, 执行的结果为: Fail
+具体异常为: 10005 != 99996 : 编辑-公司统一社会信用代码为空
+
+2021-01-07 15:10:59,723 - [test_03_company.py-->line:78] - ERROR: 编辑-公司口号为空, 执行的结果为: Fail
+具体异常为: 10006 != 99996 : 编辑-公司口号为空
+
+2021-01-07 15:10:59,959 - [test_03_company.py-->line:78] - ERROR: 编辑-公司简介为空, 执行的结果为: Fail
+具体异常为: 10007 != 99996 : 编辑-公司简介为空
+
+2021-01-07 15:11:00,825 - [test_04_supplier.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2021-01-07 15:14:27,600 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2021-01-07 15:14:27,845 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2021-01-07 15:14:28,492 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2021-01-07 15:14:28,716 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2021-01-07 15:14:29,534 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2021-01-07 15:14:29,753 - [test_01_login.py-->line:93] - INFO: 手机号码输入特殊字符, 执行的结果为: Success
+
+2021-01-07 15:14:30,570 - [test_02_product.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2021-01-07 15:14:30,791 - [test_02_product.py-->line:81] - ERROR: 添加产品为草稿模式, 执行的结果为: Fail
+具体异常为: 10000 != 99998 : 添加产品为草稿模式
+
+2021-01-07 15:14:31,412 - [test_02_product.py-->line:97] - INFO: 获取列表, 执行的结果为: Success
+
+2021-01-07 15:14:31,894 - [test_02_product.py-->line:97] - INFO: 删除产品, 执行的结果为: Success
+
+2021-01-07 15:14:32,743 - [test_03_company.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2021-01-07 15:14:34,986 - [test_03_company.py-->line:97] - INFO: 获取用户信息, 执行的结果为: Success
+
+2021-01-07 15:14:35,216 - [test_03_company.py-->line:97] - INFO: 获取公司信息, 执行的结果为: Success
+
+2021-01-07 15:14:35,997 - [test_03_company.py-->line:97] - INFO: 编辑-公司名称为空, 执行的结果为: Success
+
+2021-01-07 15:14:36,249 - [test_03_company.py-->line:97] - INFO: 编辑-公司法人为空, 执行的结果为: Success
+
+2021-01-07 15:14:36,498 - [test_03_company.py-->line:97] - INFO: 编辑-法人电话为空, 执行的结果为: Success
+
+2021-01-07 15:14:36,737 - [test_03_company.py-->line:97] - INFO: 编辑-公司电话为空, 执行的结果为: Success
+
+2021-01-07 15:14:36,990 - [test_03_company.py-->line:97] - INFO: 编辑-公司地址为空, 执行的结果为: Success
+
+2021-01-07 15:14:37,281 - [test_03_company.py-->line:97] - INFO: 编辑-公司详细地址为空, 执行的结果为: Success
+
+2021-01-07 15:14:37,562 - [test_03_company.py-->line:97] - INFO: 编辑-公司统一社会信用代码为空, 执行的结果为: Success
+
+2021-01-07 15:14:37,812 - [test_03_company.py-->line:97] - INFO: 编辑-公司口号为空, 执行的结果为: Success
+
+2021-01-07 15:14:38,061 - [test_03_company.py-->line:97] - INFO: 编辑-公司简介为空, 执行的结果为: Success
+
+2021-01-07 15:14:38,898 - [test_04_supplier.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2021-01-07 17:55:37,941 - [test_04_supplier.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2021-01-07 17:58:11,417 - [test_04_supplier.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2021-01-07 17:58:11,574 - [test_04_supplier.py-->line:78] - ERROR: 获取供应商列表, 执行的结果为: Fail
+具体异常为: 10000 != None : 获取供应商列表
+
+2021-01-07 17:58:11,721 - [test_04_supplier.py-->line:78] - ERROR: 保存供应商为草稿, 执行的结果为: Fail
+具体异常为: 10000 != None : 保存供应商为草稿
+
+2021-01-07 18:00:45,348 - [test_04_supplier.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2021-01-07 18:00:45,461 - [test_04_supplier.py-->line:78] - ERROR: 获取供应商列表, 执行的结果为: Fail
+具体异常为: 10000 != None : 获取供应商列表
+
+2021-01-07 18:00:45,572 - [test_04_supplier.py-->line:78] - ERROR: 保存供应商为草稿, 执行的结果为: Fail
+具体异常为: 10000 != None : 保存供应商为草稿
+
+2021-01-07 18:05:19,634 - [test_02_product.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2021-01-07 18:05:19,928 - [test_02_product.py-->line:81] - ERROR: 添加产品为草稿模式, 执行的结果为: Fail
+具体异常为: 10000 != 99998 : 添加产品为草稿模式
+
+2021-01-07 18:05:21,380 - [test_02_product.py-->line:97] - INFO: 获取列表, 执行的结果为: Success
+
+2021-01-07 18:05:21,934 - [test_02_product.py-->line:97] - INFO: 删除产品, 执行的结果为: Success
+
+2021-01-07 18:09:24,042 - [test_04_supplier.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2021-01-07 18:09:25,278 - [test_04_supplier.py-->line:97] - INFO: 获取供应商列表, 执行的结果为: Success
+
+2021-01-07 18:09:26,932 - [test_04_supplier.py-->line:97] - INFO: 保存供应商为草稿, 执行的结果为: Success
+
+2021-01-07 18:51:33,145 - [test_04_supplier.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2021-01-07 18:51:34,907 - [test_04_supplier.py-->line:97] - INFO: 保存供应商为草稿, 执行的结果为: Success
+
+2021-01-07 18:51:35,272 - [test_04_supplier.py-->line:97] - INFO: 获取供应商列表, 执行的结果为: Success
+
+2021-01-07 19:01:33,547 - [test_04_supplier.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2021-01-07 19:01:34,555 - [test_04_supplier.py-->line:81] - ERROR: 保存供应商为草稿, 执行的结果为: Fail
+具体异常为: 10000 != 28001 : 保存供应商为草稿
+
+2021-01-07 19:01:34,993 - [test_04_supplier.py-->line:97] - INFO: 获取供应商列表, 执行的结果为: Success
+
+2021-01-07 19:08:08,247 - [test_04_supplier.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2021-01-07 19:08:08,826 - [test_04_supplier.py-->line:81] - ERROR: 保存供应商为草稿, 执行的结果为: Fail
+具体异常为: 10000 != 28001 : 保存供应商为草稿
+
+2021-01-07 19:08:09,477 - [test_04_supplier.py-->line:97] - INFO: 获取供应商列表, 执行的结果为: Success
+
+2021-01-07 19:08:09,946 - [test_04_supplier.py-->line:81] - ERROR: 公司名称为空, 执行的结果为: Fail
+具体异常为: 10000 != None : 公司名称为空
+
+2021-01-07 19:08:10,566 - [test_04_supplier.py-->line:81] - ERROR: 开户行名称为空, 执行的结果为: Fail
+具体异常为: 10000 != 28001 : 开户行名称为空
+
+2021-01-07 19:08:11,125 - [test_04_supplier.py-->line:81] - ERROR: 账户名称为空, 执行的结果为: Fail
+具体异常为: 10001 != 28001 : 账户名称为空
+
+2021-01-07 19:08:11,614 - [test_04_supplier.py-->line:81] - ERROR: 开户行账号为空, 执行的结果为: Fail
+具体异常为: 10002 != 28001 : 开户行账号为空
+
+2021-01-07 19:08:12,195 - [test_04_supplier.py-->line:81] - ERROR: 联系人为空, 执行的结果为: Fail
+具体异常为: 10003 != 28001 : 联系人为空
+
+2021-01-07 19:08:12,675 - [test_04_supplier.py-->line:81] - ERROR: 收货地址为空, 执行的结果为: Fail
+具体异常为: 10004 != 28001 : 收货地址为空
+
+2021-01-07 19:08:13,291 - [test_04_supplier.py-->line:81] - ERROR: 收票地址为空, 执行的结果为: Fail
+具体异常为: 10005 != 28001 : 收票地址为空
+
+2021-01-07 19:08:13,417 - [test_04_supplier.py-->line:81] - ERROR: 删除供应商, 执行的结果为: Fail
+具体异常为: 10006 != 99999 : 删除供应商
+
+2021-01-08 10:31:04,225 - [test_04_supplier.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2021-01-08 10:31:04,773 - [test_04_supplier.py-->line:81] - ERROR: 保存供应商为草稿, 执行的结果为: Fail
+具体异常为: 10000 != 28001 : 保存供应商为草稿
+
+2021-01-08 10:31:05,135 - [test_04_supplier.py-->line:97] - INFO: 获取供应商列表, 执行的结果为: Success
+
+2021-01-08 10:31:05,568 - [test_04_supplier.py-->line:81] - ERROR: 公司名称为空, 执行的结果为: Fail
+具体异常为: 10000 != None : 公司名称为空
+
+2021-01-08 10:31:07,138 - [test_04_supplier.py-->line:97] - INFO: 开户行名称为空, 执行的结果为: Success
+
+2021-01-08 10:31:07,615 - [test_04_supplier.py-->line:81] - ERROR: 账户名称为空, 执行的结果为: Fail
+具体异常为: 10001 != 28001 : 账户名称为空
+
+2021-01-08 10:31:08,087 - [test_04_supplier.py-->line:81] - ERROR: 开户行账号为空, 执行的结果为: Fail
+具体异常为: 10002 != 28001 : 开户行账号为空
+
+2021-01-08 10:31:08,552 - [test_04_supplier.py-->line:81] - ERROR: 联系人为空, 执行的结果为: Fail
+具体异常为: 10003 != 28001 : 联系人为空
+
+2021-01-08 10:31:09,027 - [test_04_supplier.py-->line:81] - ERROR: 收货地址为空, 执行的结果为: Fail
+具体异常为: 10004 != 28001 : 收货地址为空
+
+2021-01-08 10:31:09,502 - [test_04_supplier.py-->line:81] - ERROR: 收票地址为空, 执行的结果为: Fail
+具体异常为: 10005 != 28001 : 收票地址为空
+
+2021-01-08 10:31:09,635 - [test_04_supplier.py-->line:81] - ERROR: 删除供应商, 执行的结果为: Fail
+具体异常为: 10006 != 99999 : 删除供应商
+
+2021-05-07 10:02:50,153 - [test_01_login.py-->line:93] - INFO: 手机号为空, 执行的结果为: Success
+
+2021-05-07 10:02:50,310 - [test_01_login.py-->line:93] - INFO: 密码为空, 执行的结果为: Success
+
+2021-05-07 10:02:51,018 - [test_01_login.py-->line:93] - INFO: 密码错误, 执行的结果为: Success
+
+2021-05-07 10:02:51,252 - [test_01_login.py-->line:93] - INFO: 手机号错误, 执行的结果为: Success
+
+2021-05-07 10:02:51,916 - [test_01_login.py-->line:93] - INFO: 正常登录, 执行的结果为: Success
+
+2021-05-07 10:02:52,083 - [test_01_login.py-->line:93] - INFO: 手机号码输入特殊字符, 执行的结果为: Success
+
+2021-05-07 10:02:52,761 - [test_02_product.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2021-05-07 10:02:53,085 - [test_02_product.py-->line:81] - ERROR: 添加产品为草稿模式, 执行的结果为: Fail
+具体异常为: 10000 != 99998 : 添加产品为草稿模式
+
+2021-05-07 10:02:59,306 - [test_02_product.py-->line:97] - INFO: 获取列表, 执行的结果为: Success
+
+2021-05-07 10:02:59,939 - [test_02_product.py-->line:97] - INFO: 删除产品, 执行的结果为: Success
+
+2021-05-07 10:03:00,636 - [test_03_company.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2021-05-07 10:03:01,247 - [test_03_company.py-->line:97] - INFO: 获取用户信息, 执行的结果为: Success
+
+2021-05-07 10:03:01,454 - [test_03_company.py-->line:97] - INFO: 获取公司信息, 执行的结果为: Success
+
+2021-05-07 10:03:02,076 - [test_03_company.py-->line:78] - ERROR: 编辑-公司名称为空, 执行的结果为: Fail
+具体异常为: 10000 != 99996 : 编辑-公司名称为空
+
+2021-05-07 10:03:02,315 - [test_03_company.py-->line:97] - INFO: 编辑-公司法人为空, 执行的结果为: Success
+
+2021-05-07 10:03:02,550 - [test_03_company.py-->line:97] - INFO: 编辑-法人电话为空, 执行的结果为: Success
+
+2021-05-07 10:03:02,767 - [test_03_company.py-->line:97] - INFO: 编辑-公司电话为空, 执行的结果为: Success
+
+2021-05-07 10:03:02,991 - [test_03_company.py-->line:97] - INFO: 编辑-公司地址为空, 执行的结果为: Success
+
+2021-05-07 10:03:03,218 - [test_03_company.py-->line:97] - INFO: 编辑-公司详细地址为空, 执行的结果为: Success
+
+2021-05-07 10:03:03,441 - [test_03_company.py-->line:97] - INFO: 编辑-公司统一社会信用代码为空, 执行的结果为: Success
+
+2021-05-07 10:03:03,656 - [test_03_company.py-->line:97] - INFO: 编辑-公司口号为空, 执行的结果为: Success
+
+2021-05-07 10:03:03,874 - [test_03_company.py-->line:97] - INFO: 编辑-公司简介为空, 执行的结果为: Success
+
+2021-05-07 10:03:04,547 - [test_04_supplier.py-->line:97] - INFO: 正常登录, 执行的结果为: Success
+
+2021-05-07 10:03:05,136 - [test_04_supplier.py-->line:97] - INFO: 保存供应商为草稿, 执行的结果为: Success
+
+2021-05-07 10:03:05,548 - [test_04_supplier.py-->line:97] - INFO: 获取供应商列表, 执行的结果为: Success
+
+2021-05-07 10:03:06,211 - [test_04_supplier.py-->line:81] - ERROR: 公司名称为空, 执行的结果为: Fail
+具体异常为: 10000 != None : 公司名称为空
+
+2021-05-07 10:03:06,750 - [test_04_supplier.py-->line:97] - INFO: 开户行名称为空, 执行的结果为: Success
+
+2021-05-07 10:03:07,251 - [test_04_supplier.py-->line:81] - ERROR: 账户名称为空, 执行的结果为: Fail
+具体异常为: 10001 != 28001 : 账户名称为空
+
+2021-05-07 10:03:07,641 - [test_04_supplier.py-->line:81] - ERROR: 开户行账号为空, 执行的结果为: Fail
+具体异常为: 10002 != 28001 : 开户行账号为空
+
+2021-05-07 10:03:08,008 - [test_04_supplier.py-->line:81] - ERROR: 联系人为空, 执行的结果为: Fail
+具体异常为: 10003 != 28001 : 联系人为空
+
+2021-05-07 10:03:08,888 - [test_04_supplier.py-->line:81] - ERROR: 收货地址为空, 执行的结果为: Fail
+具体异常为: 10004 != 28001 : 收货地址为空
+
+2021-05-07 10:03:09,254 - [test_04_supplier.py-->line:81] - ERROR: 收票地址为空, 执行的结果为: Fail
+具体异常为: 10005 != 28001 : 收票地址为空
+
+2021-05-07 10:03:09,415 - [test_04_supplier.py-->line:81] - ERROR: 删除供应商, 执行的结果为: Fail
+具体异常为: 10006 != 99999 : 删除供应商
+
