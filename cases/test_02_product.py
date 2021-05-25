@@ -31,8 +31,8 @@ class TestProduct(unittest.TestCase):
     @data(*cases)
     def test_product(self, case):
         # 1. 参数化
-        new_data = Parameterize.to_param(case.data)
-
+        #new_data = Parameterize.to_param(case.data)
+        pru_data=Parameterize.to_product(case.data)
         # 2. 拼接完整的url
         if case.case_id ==4:
             mysql=HandleMysql()
@@ -45,7 +45,7 @@ class TestProduct(unittest.TestCase):
         # 3. 向服务器发起请求
         res = self.do_request.send(url=new_url,  # url地址
                                    method=case.method,    # 请求方法
-                                   data=new_data  # 请求参数
+                                   data=pru_data  # 请求参数
                                    # is_json=True   # 是否以json格式来传递数据, 默认为True
                                    )
         # 将相应报文中的数据转化为字典

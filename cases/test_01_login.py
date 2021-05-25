@@ -35,7 +35,6 @@ class TestLogin(unittest.TestCase):
 
         # 2. 拼接完整的url
         new_url = do_yaml.read('api', 'prefix') + case.url
-        print(new_url)
         # 3. 向服务器发起请求
         res = self.do_request.send(url=new_url,  # url地址
                                    # method=case.method,    # 请求方法

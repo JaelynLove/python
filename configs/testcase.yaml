@@ -16,9 +16,9 @@ log:
   logfile_level: DEBUG
 report:
   name: report
-  title: "自动化测试报告"
-  description: "这是一个美轮美奂的报告"
-  tester: "ss"
+  title: "贸驰接口自动化测试报告"
+  description: "完美的报告"
+  tester: "song"
 mysql:
   host: 'rm-8vbch9r86sk1h4t6h6o.mysql.zhangbei.rds.aliyuncs.com'
   user: 'more_chips'
@@ -26,9 +26,9 @@ mysql:
   db: 'morechips'
   port: 3306
   select_user_sql: "SELECT * FROM member WHERE mobile_phone = %s ;"
-  select_userid_sql: "SELECT id FROM member WHERE mobile_phone = %s ;"
+  select_userid_sql: "SELECT id FROM sys_user WHERE mobile_phone = %s ;"
   select_product_id: "select id FROM bus_product ORDER BY id DESC LIMIT 0,1 ;"
 api:
   #version: {"X-Lemonban-Media-Type": "lemonban.v2"}
-  prefix: "http://ssssss:9101"
+  prefix: "http://106.12.56.107:9101"
   version: {"Content-Type": "application/json;charset=UTF-8"}

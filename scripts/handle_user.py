@@ -10,7 +10,7 @@ from scripts.handle_yaml import do_yaml
 from scripts.handle_path import USER_ACCOUNTS_FILE_PATH
 
 
-def create_new_user(reg_name, pwd="12345678", user_type=1):
+def create_new_user(reg_name, pwd="aaa123", user_type=1):
     """
     创建一个用户
     :param reg_name: 用户名
@@ -62,13 +62,13 @@ def create_new_user(reg_name, pwd="12345678", user_type=1):
 
 def generate_users_config():
     """
-    生成三个用户信息
+    生成三个用户信息,管理员、采购、销售
     :return:
     """
     users_datas_dict = {}
     users_datas_dict.update(create_new_user("admin", user_type=0))
-    users_datas_dict.update(create_new_user("invest"))
-    users_datas_dict.update(create_new_user("borrow"))
+    users_datas_dict.update(create_new_user("purchase"))
+    users_datas_dict.update(create_new_user("sale"))
     do_yaml.write(users_datas_dict, USER_ACCOUNTS_FILE_PATH)
 
 

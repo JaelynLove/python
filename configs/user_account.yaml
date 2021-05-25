@@ -1,15 +1,15 @@
 admin:
-  id: 4824
-  mobile_phone: '18883915760'
-  pwd: '12345678'
+  id: 1387607229271642112
+  mobile_phone: '18888888881'
+  pwd: 'aaa123'
   reg_name: admin
-borrow:
-  id: 4826
-  mobile_phone: '18862841390'
-  pwd: '12345678'
-  reg_name: borrow
-invest:
+purchase:
+  id: 1387616465036775424
+  mobile_phone: '18888888882'
+  pwd: 'aaa123'
+  reg_name: purchase
+sale:
   id: 4825
-  mobile_phone: '18883419526'
-  pwd: '12345678'
-  reg_name: invest
+  mobile_phone: '18888888883'
+  pwd: 'aaa123'
+  reg_name: sale
