@@ -37,7 +37,6 @@ class TestProduct(unittest.TestCase):
         if case.case_id ==4:
             mysql=HandleMysql()
             ss=mysql.run(do_yaml.read('mysql','select_product_id'))
-            print(ss['id'])
             new_url = do_yaml.read('api', 'prefix') + case.url + ss['id']
             mysql.close()
         else:

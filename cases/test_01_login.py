@@ -3,7 +3,6 @@ import json
 
 from libs.ddt import ddt, data
 from scripts.handle_excel import HandleExcel
-from scripts import handle_yaml
 from scripts.handle_yaml import do_yaml
 from scripts.handle_request import HandleRequest
 from scripts.handle_parameterize import Parameterize
@@ -17,7 +16,7 @@ class TestLogin(unittest.TestCase):
     """
     excel = HandleExcel("login")
     cases = excel.read_data_obj()
-    s = handle_yaml.do_yaml
+
     @classmethod
     def setUpClass(cls):
 

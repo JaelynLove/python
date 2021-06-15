@@ -35,7 +35,6 @@ class TestCompany(unittest.TestCase):
         # 2. 拼接完整的url
         if case.case_id > 3:
             new_url = do_yaml.read('api', 'prefix') + case.url + '/'+r'{invest_companyId}'
-            print(Parameterize.to_param(new_url))
         else:
             new_url = do_yaml.read('api', 'prefix') + case.url
 
